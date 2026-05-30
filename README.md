@@ -58,7 +58,7 @@ The simulator calculates cumulative race time for each strategy and plots lap ti
 
 ## Strategy Comparison Graph
 
-![Race Strategy Graph](OneStopVsTwoStop.png)
+![Race Strategy Graph](OneVsTwoStop.png)
 
 ---
 
