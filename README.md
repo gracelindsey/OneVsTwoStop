@@ -56,6 +56,10 @@ and visualizes lap times using graphs.
 
 The simulator calculates cumulative race time for each strategy and plots lap times across the race.
 
+## Strategy Comparison Graph
+
+![Race Strategy Graph](strategy_graph.png)
+
 ---
 
 ## Example Output
