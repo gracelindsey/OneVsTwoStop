@@ -1,4 +1,4 @@
-# F1 One-Stop vs Two-Stop Strategy Simulator
+# F1 Strategy Simulator
 
 A Python-based Formula 1 race strategy simulator that compares different tire strategies over a 60-lap race using tire degradation models and pit stop time losses.
 
