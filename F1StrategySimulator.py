@@ -74,7 +74,7 @@ print(f"{winner} wins!")
 # Graph
 plt.figure(figsize=(12, 6))
 
-plt.plot(strategy1, linewidth=2, label="Soft → Hard")
+plt.plot(strategy1, linewidth=6, label="Soft → Hard")
 plt.plot(strategy2, linewidth=2, label="Medium → Hard")
 plt.plot(strategy3, linewidth=2, label="Soft → Medium → Hard")
 
