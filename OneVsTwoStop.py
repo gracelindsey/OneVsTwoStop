@@ -72,16 +72,19 @@ print("\nWinning Strategy:")
 print(f"{winner} wins!")
 
 # Graph
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(12, 6))
 
-plt.plot(strategy1, label="Soft -> Hard")
-plt.plot(strategy2, label="Medium -> Hard")
-plt.plot(strategy3, label="Soft -> Medium -> Hard")
+plt.plot(strategy1, linewidth=2, label="Soft → Hard")
+plt.plot(strategy2, linewidth=2, label="Medium → Hard")
+plt.plot(strategy3, linewidth=2, label="Soft → Medium → Hard")
 
-plt.xlabel("Lap")
-plt.ylabel("Lap Time (seconds)")
-plt.title("F1 Tire Strategy Comparison")
+plt.title("Formula 1 Tire Strategy Comparison", fontsize=16)
+plt.xlabel("Lap Number", fontsize=12)
+plt.ylabel("Lap Time (seconds)", fontsize=12)
+
+plt.grid(True, linestyle="--", alpha=0.6)
 plt.legend()
-plt.grid(True)
 
+plt.tight_layout()
+plt.savefig("OneVsTwoStop.png", dpi=300)
 plt.show()
