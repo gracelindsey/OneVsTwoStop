@@ -77,7 +77,7 @@ Soft -> Hard wins!
 
 ## Strategy Comparison Graph
 
-![F1 Tire Strategy Comparison](OneVsTwoStop.png)
+![F1 Tire Strategy Comparison](F1StrategySimulator.png)
 
 ---
 
@@ -102,6 +102,6 @@ This Project demonstrates:
 - Simulation modeling
 - Data visualization
 - Algorithm design
-- Problem solving
+- Problem-solving
 - Motorsport analytics
 - Software development using Git and GitHub
